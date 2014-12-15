@@ -10,22 +10,37 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="Cache-Control" content="no-siteapp" />
   <link rel="alternate icon" type="image/png" href="./assets/i/favicon.png">
-  <link rel="stylesheet" href="./assets/css/amui.all.min.css"/>
+  <link rel="stylesheet" href="./assets/css/amazeui.flat.min.css"/>
   <link rel="stylesheet" href="./assets/css/app.css"/>
 </head>
 <body class="head-fixed">
 
-<header class="am-container am-cf container">
-  <h1 class="am-topbar-brand brand"><a href="./index.html"></a></h1>
-  <div class="am-collapse am-topbar-collapse" id="collapse-head">
-    <ul class="am-nav am-nav-pills nav">
-      <li class="am-active"><a href="./index.html">首页</a></li>
-	  <li><a href="./index.html#product">产品介绍</a></li>
-      <li><a href="./about.html">公司介绍</a></li>
-	  <li><a href="./about.html#contact">联系我们</a></li>
-	  <li><a href="./hr.html">加入我们</a></li>
-    </ul>
-  </div>
+<header class="am-topbar">
+    <div class="jd-container" id="jd-header">
+        <h1 class="am-topbar-brand">
+            <a href="#">Amaze UI</a>
+        </h1>
+        <div class="am-collapse am-topbar-collapse jd-nav" id="doc-topbar-collapse">
+            <ul class="am-nav am-nav-pills am-topbar-nav">
+                <li class="am-active"><a href="#">首页</a></li>
+                <li><a href="#">项目</a></li>
+                <li class="am-dropdown" data-am-dropdown>
+                    <a class="am-dropdown-toggle" data-am-dropdown-toggle href="javascript:;">
+                        下拉 <span class="am-icon-caret-down"></span>
+                    </a>
+                    <ul class="am-dropdown-content">
+                        <li class="am-dropdown-header">标题</li>
+                        <li><a href="#">1. 去月球</a></li>
+                        <li class="am-active"><a href="#">2. 去火星</a></li>
+                        <li><a href="#">3. 还是回地球</a></li>
+                        <li class="am-disabled"><a href="#">4. 下地狱</a></li>
+                        <li class="am-divider"></li>
+                        <li><a href="#">5. 桥头一回首</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
 </header>
 
 <div class="get">
@@ -58,7 +73,7 @@
           </h3>
 
           <p class="detail-p">
-            
+
 			新型在线计算教育的倡导者，用我们独有的伴随式的技术带着同学们亲身参与到计算机学科知识的学习中。让每一个参与学习的同学能感受到更有味的学习过程！
           </p>
         </div>
@@ -73,7 +88,7 @@
         </div>
         <div class="col-lg-3 col-md-6 col-sm-12 detail-mb">
           <h3 class="detail-h3">
-            <i class="am-icon-keyboard-o am-icon-sm"></i> 
+            <i class="am-icon-keyboard-o am-icon-sm"></i>
             “墨口”项目组
           </h3>
 
@@ -116,7 +131,7 @@
 <footer class="footer">
   <p>© 2014 北京矩道优达网络科技有限公司</p>
 </footer>
-  <script src="http://amazeui.org/lib/zepto/zepto.min.js"></script>
-  <script src="http://amazeui.org/js/amui.min.js"></script>
+  <script src="./assets/js/jquery.min.js"></script>
+  <script src="./assets/js/amazeui.min.js"></script>
 </body>
 </html>

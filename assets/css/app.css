@@ -35,24 +35,26 @@ body,html {
     margin: 20px;
 }
 
-#jd-nav {
+#jd-header .jd-nav {
     font-size:14px;
 }
 
-#jd-nav li {
-    height: 40px;
+#jd-header .jd-nav li {
+    height: 43px;
 }
-#jd-nav li.am-active > a,
-#jd-nav li.am-active > a:after {
+#jd-header .jd-nav li a {
+    color: #000;
+    line-height: 40px;
+    height: 40px;
+    padding: 5px 1px;
+}
+#jd-header .jd-nav li.am-active > a,
+#jd-header .jd-nav li.am-active > a:after {
     border-bottom-color: #00C721;
     border-bottom-style: solid;
+    border-bottom-width: 2px;
     border-image: none;
 }
-
-#jd-nav li a {
-    color: #000;
-    height: 40px;
-}
-#jd-nav li a:hover {
+#jd-header .jd-nav li a:hover {
     background: none;
 }
