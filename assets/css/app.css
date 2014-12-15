@@ -1,0 +1,58 @@
+body,html {
+    margin:0
+}
+
+.jd-container {
+    margin-left:auto;
+    margin-right:auto;
+    width:100%;
+    max-width:1000px;
+    padding-left:1rem;
+    padding-right:1rem
+}
+
+#jd-header {
+    height: 86px;
+    overflow: hidden;
+}
+
+#jd-header h1 {
+    padding-top: 25px;
+    float: left;
+}
+
+#jd-header h1 a {
+    display: block;
+    height: 34px;
+    width: 116px;
+    text-indent: -9999px;
+    background: url('../i/logo.png') no-repeat left center;
+    -webkit-background-size: 116px 34px;
+    background-size: 116px 34px;
+}
+
+#jd-header ul {
+    margin: 20px;
+}
+
+#jd-nav {
+    font-size:14px;
+}
+
+#jd-nav li {
+    height: 40px;
+}
+#jd-nav li.am-active > a,
+#jd-nav li.am-active > a:after {
+    border-bottom-color: #00C721;
+    border-bottom-style: solid;
+    border-image: none;
+}
+
+#jd-nav li a {
+    color: #000;
+    height: 40px;
+}
+#jd-nav li a:hover {
+    background: none;
+}
