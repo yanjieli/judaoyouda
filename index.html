@@ -13,125 +13,152 @@
   <link rel="stylesheet" href="./assets/css/amazeui.flat.min.css"/>
   <link rel="stylesheet" href="./assets/css/app.css"/>
 </head>
-<body class="head-fixed">
+<body>
 
-<header class="am-topbar">
+<header class="jd-topbar">
     <div class="jd-container" id="jd-header">
         <h1 class="am-topbar-brand">
-            <a href="#">Amaze UI</a>
+            <a href="#">矩道优达</a>
         </h1>
         <div class="am-collapse am-topbar-collapse jd-nav" id="doc-topbar-collapse">
             <ul class="am-nav am-nav-pills am-topbar-nav">
                 <li class="am-active"><a href="#">首页</a></li>
-                <li><a href="#">项目</a></li>
-                <li class="am-dropdown" data-am-dropdown>
-                    <a class="am-dropdown-toggle" data-am-dropdown-toggle href="javascript:;">
-                        下拉 <span class="am-icon-caret-down"></span>
-                    </a>
-                    <ul class="am-dropdown-content">
-                        <li class="am-dropdown-header">标题</li>
-                        <li><a href="#">1. 去月球</a></li>
-                        <li class="am-active"><a href="#">2. 去火星</a></li>
-                        <li><a href="#">3. 还是回地球</a></li>
-                        <li class="am-disabled"><a href="#">4. 下地狱</a></li>
-                        <li class="am-divider"></li>
-                        <li><a href="#">5. 桥头一回首</a></li>
-                    </ul>
-                </li>
+                <li><a href="./about.html">关于我们</a></li>
+                <li><a href="./contact.html">联系我们</a></li>
+                <li><a href="./hr.html">加入我们</a></li>
             </ul>
         </div>
     </div>
 </header>
 
-<div class="get">
-  <div class="am-g am-container">
-    <div class="col-lg-12">
-      <div data-am-widget="slider" class="am-slider am-slider-a2" data-slider-config='{&quot;directionNav&quot;:false}'>
-	  <ul class="am-slides">
-		<li>
-		  <a href="./hr.html" target="_blank"><img src="./assets/i/ban1.jpg"></a>
-		</li>
-		<li>
-		  <a href="./about.html" target="_blank"><img src="./assets/i/ban2.jpg"></a>
-		</li>
-	  </ul>
-	  </div>
+<div data-am-widget="slider" class="am-slider am-slider-a1" data-am-slider='{&quot;directionNav&quot;:false}'>
+    <ul class="am-slides">
+        <li>
+            <img src="./assets/i/ban1.jpg">
+        </li>
+        <li>
+            <img src="./assets/i/ban2.jpg">
+        </li>
+    </ul>
+</div>
+<div class="jd-container">
+    <div data-am-widget="titlebar" class="am-titlebar am-titlebar-default">
+        <h2 class="am-titlebar-title">新闻动态</h2>
+        <nav class="am-titlebar-nav">
+            <!-- <a href="./news.html" >更多 &raquo;</a> -->
+        </nav>
     </div>
-  </div>
+    <ul  class="am-gallery am-avg-sm-1
+    am-avg-md-3 am-avg-lg-3 am-gallery-default" data-am-gallery="{ pureview: true }">
+    <li>
+        <div class="am-gallery-item">
+            <a href="http://www.techbigbang.com/1890.html" target="_blank">
+                <img src="./assets/i/news/news1.jpg" alt="俞昊然：技术导向是在线教育的立命之本">
+                <h3 class="am-gallery-title">俞昊然：技术导向是在线教育的立命之本</h3>
+                <div class="am-gallery-desc">2014-11-28</div>
+            </a>
+        </div>
+    </li>
+    <li>
+        <div class="am-gallery-item">
+            <a href="http://www.codenian.com/" target="_blank">
+                <img src="./assets/i/news/news2.jpg"
+                alt="编程年2015启动：人人都可以学会编程" />
+                <h3 class="am-gallery-title">编程年2015启动：人人都可以学会编程</h3>
+                <div class="am-gallery-desc">2014-11-21</div>
+            </a>
+        </div>
+    </li>
+    <li>
+        <div class="am-gallery-item">
+            <a href="http://tech.ifeng.com/a/20141031/40853272_0.shtml" target="_blank">
+                <img src="./assets/i/news/news3.jpg"
+                alt="计蒜客获紫辉创投数千万人民币pre-A轮投资" />
+                <h3 class="am-gallery-title">计蒜客获紫辉创投数千万人民币pre-A轮投资</h3>
+                <div class="am-gallery-desc">2014-10-31</div>
+            </a>
+        </div>
+    </li>
+    </ul>
 </div>
 
-<div class="detail" id="product">
-  <div class="am-g am-container">
-    <div class="col-lg-12">
-      <h2 class="detail-h2">聚焦教育，这是我们的产品</h2>
-
-      <div class="am-g">
-        <div class="col-lg-3 col-md-6 col-sm-12 detail-mb">
-
-          <h3 class="detail-h3">
-            <a href="http://www.jisuanke.com/" target="_blank"><i class="am-icon-university am-icon-sm"></i> 计蒜客</a>
-          </h3>
-
-          <p class="detail-p">
-
-			新型在线计算教育的倡导者，用我们独有的伴随式的技术带着同学们亲身参与到计算机学科知识的学习中。让每一个参与学习的同学能感受到更有味的学习过程！
-          </p>
+<div class="jd-hr">
+    <div class="jd-container">
+        <div data-am-widget="titlebar" class="am-titlebar am-titlebar-default">
+            <h2 class="am-titlebar-title">招贤纳士</h2>
+            <nav class="am-titlebar-nav">
+                <a href="./hr.html" >更多 &raquo;</a>
+            </nav>
         </div>
-        <div class="col-lg-3 col-md-6 col-sm-12 detail-mb">
-          <h3 class="detail-h3">
-            <a href="http://www.paomianba.com/" target="_blank"><i class="am-icon-flag am-icon-sm"></i> 泡面吧教育导航</a>
-          </h3>
-
-          <p class="detail-p">
-            泡面吧教育导航汇聚了当今在线教育关注者、IT技能学习者所需要的相关网站、服务的链接，帮助大家更好的关注在线教育的发展，给大家提供一个关注在线教育的第一入口。
-		</p>
-        </div>
-        <div class="col-lg-3 col-md-6 col-sm-12 detail-mb">
-          <h3 class="detail-h3">
-            <i class="am-icon-keyboard-o am-icon-sm"></i>
-            “墨口”项目组
-          </h3>
-
-          <p class="detail-p">
-            一款让程序猿可以随时随地的高效工作的产品，欲知详情，敬请期待……
-          </p>
-        </div>
-        <div class="col-lg-3 col-md-6 col-sm-12 detail-mb">
-          <h3 class="detail-h3">
-            <i class="am-icon-code am-icon-sm"></i>
-            “麦树”项目组
-          </h3>
-
-          <p class="detail-p">
-            希望和巨大无比的本地开发环境说拜拜，这就是我们正在做的事情。敬请期待……
-          </p>
-        </div>
-      </div>
+        <ul data-am-widget="paragraph" class="am-paragraph am-avg-sm-1
+        am-avg-md-3 am-avg-lg-3 am-paragraph-default" data-am-gallery="{ pureview: true }">
+            <li>
+                <h4><a href="#">PHP高级研发工程师</a></h4>
+                <p>-教育互联网相关产品的PHP研发工作</p>
+                <p>-通过研究学习最新技术，满足产品的实际需要</p>
+                <p>-结合产品目标进行技术创新</p>
+            </li>
+            <li>
+                <h4><a href="#">计算机科学与技术教学研究员</a></h4>
+                <p>-负责课程与教学体系梳理</p>
+                <p>-对课程教学内容所需的教学工具提出明确需求</p>
+                <p>-积极参与计算教育领域相关研究与学术会议</p>
+            </li>
+            <li>
+                <h4><a href="#">平面设计师</a></h4>
+                <p>-负责产品前期视觉用户研究</p>
+                <p>-日常的运营活动及功能维护提供美术支持</p>
+                <p>-负负责地面品牌推广的相关平面设计</p>
+            </li>
+        </ul>
     </div>
-  </div>
 </div>
 
-<div class="hope">
-  <div class="am-g am-container">
-    <div class="col-lg-4 col-md-6 col-sm-12 hope-img">
-      <img src="./assets/i/landing.png" alt="" data-am-scrollspy="{animation:'slide-left', repeat: false}">
-      <hr class="am-article-divider am-show-sm-only hope-hr">
+<div class="jd-container">
+    <div data-am-widget="slider" class="am-slider am-slider-d4" data-am-slider='{&quot;directionNav&quot;:false}'>
+        <ul class="am-slides jd-foo-slides">
+            <li>
+                <img src="./assets/i/foo1.jpg">
+                <div class="am-slider-desc">
+                    <div class="am-slider-content">
+                        <h2 class="am-slider-title">计蒜客在线教育</h2>
+                        <p>新型在线计算教育的倡导者，<br>用我们独有的伴随式的技术带着同学们亲身参与到计算机学科知识的学习中。<br>让每一个参与学习的同学能感受到更有味的学习过程！</p>
+                    </div>
+                    <a class="am-slider-more" href="http://www.jisuanke.com/" target="_blank">了解更多</a>
+                </div>
+            </li>
+            <li>
+                <img src="./assets/i/foo2.jpg">
+                <div class="am-slider-desc">
+                    <div class="am-slider-content">
+                        <h2 class="am-slider-title">泡面吧教育导航</h2>
+                        <p>泡面吧教育导航汇聚了当今在线教育关注者、<br>IT技能学习者所需要的相关网站、服务的链接，帮助大家更好的关注<br>在线教育的发展，给大家提供一个关注在线教育的第一入口。</p>
+                    </div>
+                    <a class="am-slider-more" href="http://www.paomianba.com" target="_blank">了解更多</a>
+                </div>
+            </li>
+        </ul>
     </div>
-    <div class="col-lg-8 col-md-6 col-sm-12">
-      <h2 class="hope-title">向您推荐：计蒜客</h2>
-      <p>
-        计蒜客里有C、C++、Java等丰富的程序设计语言相关的课程，也将在未来开放更多计算机学科内的其它课程。计蒜客为学生提供边阅读课程内容、边编写代码、边得到讲解的伴随式教学方式，让“小白”不再感到为难。
-      </p>
+</div>
+<footer data-am-widget="footer" class="am-footer am-footer-default">
+    <div class="am-footer-miscs ">
+        <p>©2014 北京矩道优达网络科技有限公司.</p>
+        <p>京ICP备 14048711号</p>
     </div>
-  </div>
-</div>
-
-</div>
-
-<footer class="footer">
-  <p>© 2014 北京矩道优达网络科技有限公司</p>
+    <div class="am-footer-miscs ">
+        <p>感谢 <a href="http://www.yunshipei.com/" target="_blank">云适配</a> · <a href="http://amazeui.org/" target="_blank">AmazeUI</a> 强大前端驱动</p>
+    </div>
 </footer>
-  <script src="./assets/js/jquery.min.js"></script>
-  <script src="./assets/js/amazeui.min.js"></script>
+<div id="am-footer-mode" class="am-modal am-modal-no-btn am-switch-mode-m am-switch-mode-m-default">
+    <div class="am-modal-dialog">
+        <div class="am-modal-hd am-modal-footer-hd">
+            <a href="javascript:void(0)" data-dismiss="modal" class="am-close am-close-spin"
+            data-am-modal-close>&times;</a>
+        </div>
+    </div>
+</div>
+
+<script src="./assets/js/jquery.min.js"></script>
+<script src="./assets/js/amazeui.min.js"></script>
 </body>
 </html>
