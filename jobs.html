@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html class="ui-viewport-640" lang="zh-CN">
+<head><meta charset="utf-8">
+<meta name="keywords" content="互联网招聘,移动互联网招聘,社交招聘,IT招聘,微信招聘,微博招聘,豆瓣招聘,跳槽,高薪职位">
+<meta name="description" content="周伯通招聘，最靠谱的招聘社区">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="format-detection" content="telephone=no">
+<meta http-equiv="cleartype" content="on">
+<title>我是矩道优达，我在等人才&nbsp;-&nbsp;周伯通招聘</title>
+<script>
+	var SITE_URL  = 'http://m.jobtong.com/';
+	var API_URL   = 'http://api.jobtong.com';
+	var OPEN_SITE = null;
+
+	var UID  = 0;
+	var ROLE  = "";
+	var USER = null;
+</script>
+<script>
+	// class
+	! function( navigator ) {
+		var userAgent = navigator.userAgent;
+		    documentElement = document.documentElement;
+		if ( userAgent.match( /micromessenger\/5/gi ) ) {
+		    documentElement.className += " mobile wx_mobile wx_mobile_5";
+		} else if ( userAgent.match( /micromessenger/gi ) ) {
+		    documentElement.className += " mobile wx_mobile";
+		} else if ( userAgent.match( /ucbrowser/gi ) ) {
+		    documentElement.className += " mobile uc_mobile";
+		} else if ( /android|webos|iphone|ipad|ipod|blackberry|iemobile|opera mini/i.test( userAgent.toLowerCase() ) ) {
+		    documentElement.className += " mobile";
+		} else if ( userAgent.toLowerCase().match( /msie/gi ) && ( parseFloat( userAgent.toLowerCase().match( /msie ([0-9]{1,}[\.0-9]{0,})/i )[1] || 999 ) < 9 ) ) {
+		    documentElement.className += " pc pc-ie pc-ie8";
+		} else if ( userAgent.toLowerCase().match( /msie/gi ) || navigator.msPointerEnabled || navigator.pointerEnabled ) {
+		     documentElement.className += " pc pc-ie";
+		} else {
+		    documentElement.className += " pc";
+		}
+	}( navigator );
+	// meta
+	! function( userAgent ) {
+		var screen_w = parseInt(window.screen.width),
+		    scale = screen_w / 640;
+		if ( /Android (\d+\.\d+)/.test( userAgent ) ) {
+		    var version = parseFloat( RegExp.$1 );
+		    document.write( version > 2.3
+		        ? '<meta name="viewport" content="width=640, minimum-scale = ' + scale + ", maximum-scale = " + scale + ', target-densitydpi=device-dpi">'
+		        : '<meta name="viewport" content="width=640, target-densitydpi=device-dpi">' );
+		} else {
+		    document.write( '<meta name="viewport" content="width=640, user-scalable=no, target-densitydpi=device-dpi">' );
+		}
+	}( navigator.userAgent );
+</script>
+<link rel="stylesheet" type="text/css" href="css/aio.min.css">
+<script src="js/aio.min.js"></script>
+<script type="text/javascript" name="baidu-tc-cerfication" src="js/lightapp.js"></script>
+</head>
+<body>
+<!-- container -->
+<div class="container">
+	<div class="content">
+		<div class="content-body">
+			<div class="ui-loading js-loading">
+				<i class="fa fa-circle-o-notch fa-spin fa-3x"></i>
+			</div>
+		<div class="power-scroll-container js-power-scroll-container">
+		<div class="hide js-arrow"></div>
+		<link href="css/colorful.css" rel="stylesheet" type="text/css">
+		<script src="js/colorful.js"></script>
+		<script>
+			var _defaultShareData = {
+				imgUrl: "img/5f23186dfc3a4ba1a0a1d1309f9962fd2f63405e.jpg",
+				imgWidth: "180",
+				imgHeight: "180",
+				title: "我是矩道优达，我在等人才",
+				desc: "极客文化，内部知识分享，扁平管理，功夫熊按摩，CEO做早餐，五险一金，阿姨免费午餐，弹性工作"
+			};
+			navigator.userAgent.match( /micromessenger/gi ) && Share.WeChat.setData( _defaultShareData );
+    	</script>
+    	<div class="swiper-container js-power-scroll" data-options='{"hashNav":true,"mode":"vertical","loop":true,"shadow":true}'><div class="swiper-wrapper"><div class="swiper-slide slide-cover" data-hash="cover"><div class="slide-wrapper"><div class="ui-top-space"></div><div class="text-center ui-logo"><img src="img/5f23186dfc3a4ba1a0a1d1309f9962fd2f63405e.jpg"/></div><div class="ui-row-space"></div><div class="text-center font-size-40 ui-row ui-row-company"><span>矩道优达</span></div><div class="ui-row-space"></div><div class="relative center text-center font-size-32 ui-invitation"><div class="ui-text"><span>极客文化，内部知识分享，扁平管理，功夫熊按摩，CEO做早餐，五险一金，阿姨免费午餐，弹性工作&nbsp;</span></div></div><div class="absolute text-center ui-host"><img src="img/jobtong.png"/></div></div></div><div class="swiper-slide slide-introduction" data-hash="introduction"><div class="slide-wrapper"><div class="ui-top-space"></div><div class="nowrap font-size-36 ui-title"><img class="vertical-middle" src="img/5f23186dfc3a4ba1a0a1d1309f9962fd2f63405e.jpg"/><span>矩道优达</span></div><div class="ui-row-space"></div><div class="nowrap font-size-28 ui-row ui-row-financing"><div class="inline-block vertical-middle ui-arrow"></div><div class="inline-block ui-text"><span>融资：A轮</span></div><div class="inline-block vertical-middle ui-tail"></div></div><div class="ui-row-space"></div><div class="nowrap font-size-28 ui-row ui-row-agency"><div class="inline-block vertical-middle ui-arrow"></div><div class="inline-block ui-text"><span>投资机构：紫辉创投</span></div><div class="inline-block vertical-middle ui-tail"></div></div><div class="ui-row-space"></div><div class="nowrap font-size-28 ui-row ui-row-others"><div class="inline-block vertical-middle ui-arrow"></div><div class="inline-block ui-text"><span>北京&nbsp;|&nbsp;教育&nbsp;|&nbsp;15-50人&nbsp;|&nbsp;私企</span></div><div class="inline-block vertical-middle ui-tail"></div></div><div class="ui-row-space"></div><div class="font-size-28 ui-invitation ui-invitation-title"><span>关于我们…</span></div><div class="ui-row-space"></div><div class="relative center font-size-28 ui-invitation ui-invitation-bubble"><div class="absolute ui-triangle"></div><div class="ui-text"><span>矩道优达是一家提供在线教育与教育信息服务的公司。但是与很多教育公司都不一样，矩道优达致力于提供一个由内而外的全新教育方式，提供最优的教育体验。让...</span></div></div></div></div><div class="swiper-slide slide-bonus" data-hash="bonus"><div class="slide-wrapper"><div class="ui-top-space"></div><div class="text-center font-size-68 ui-title"><span>那些走心的福利</span></div><div class="ui-center-space"></div><div class="relative center font-size-44 ui-tag-cloud"><div class="absolute nowrap c-blue b-blue ui-tag" style="top:-241px;left:3px;animation:floatRightTilt 8s infinite ease-in -2s;-webkit-animation:floatRightTilt 8s infinite ease-in -3s;"><span>CEO做早餐</span></div><div class="absolute nowrap c-grey b-grey ui-tag" style="top:-192px;left:-22px;animation:floatLeftTilt 8s infinite ease-in -2s;-webkit-animation:floatLeftTilt 8s infinite ease-in -6s;"><span>MacBook标配</span></div><div class="absolute nowrap c-pink b-pink ui-tag" style="top:-139px;left:46px;animation:floatUpDown 8s infinite ease-in -5s;-webkit-animation:floatUpDown 8s infinite ease-in -4s;"><span>五险一金</span></div><div class="absolute nowrap c-blue b-blue ui-tag" style="top:-100px;left:-19px;animation:floatRightTilt 8s infinite ease-in -5s;-webkit-animation:floatRightTilt 8s infinite ease-in -4s;"><span>交通补助</span></div><div class="absolute nowrap c-grey b-grey ui-tag" style="top:-41px;left:122px;animation:floatLeftTilt 8s infinite ease-in -6s;-webkit-animation:floatLeftTilt 8s infinite ease-in -6s;"><span>内部知识分享</span></div><div class="absolute nowrap c-pink b-pink ui-tag" style="top:-8px;left:-55px;animation:floatUpDown 8s infinite ease-in -6s;-webkit-animation:floatUpDown 8s infinite ease-in -5s;"><span>功夫熊按摩</span></div><div class="absolute nowrap c-blue b-blue ui-tag" style="top:49px;left:146px;animation:floatRightTilt 8s infinite ease-in -3s;-webkit-animation:floatRightTilt 8s infinite ease-in -3s;"><span>弹性工作</span></div><div class="absolute nowrap c-grey b-grey ui-tag" style="top:100px;left:-41px;animation:floatLeftTilt 8s infinite ease-in -5s;-webkit-animation:floatLeftTilt 8s infinite ease-in -2s;"><span>扁平管理</span></div><div class="absolute nowrap c-pink b-pink ui-tag" style="top:152px;left:85px;animation:floatUpDown 8s infinite ease-in -4s;-webkit-animation:floatUpDown 8s infinite ease-in -4s;"><span>极客文化</span></div><div class="absolute nowrap c-blue b-blue ui-tag" style="top:193px;left:-55px;animation:floatRightTilt 8s infinite ease-in -3s;-webkit-animation:floatRightTilt 8s infinite ease-in -3s;"><span>阿姨免费午餐</span></div></div></div></div><div class="swiper-slide slide-jobs" data-hash="jobs"><div class="slide-wrapper"><div class="ui-top-space"></div><div class="text-center font-size-62 ui-title"><span>我们急需核心职位</span></div><div class="ui-center-space"></div><div class="relative center sub-power-scroll-container js-sub-power-scroll-container"><div class="absolute swiper-container sub-swiper-container js-sub-power-scroll"><div class="swiper-wrapper sub-swiper-wrapper"><div class="swiper-slide sub-swiper-slide sub-slide-job sub-slide-job-programming"><div class="relative center slide-wrapper"><div class="clearfix font-size-28 ui-head-wrapper"><div class="ui-head"><div class="pull-right ui-salary"><span>￥19k-38k</span></div><div class="pull-left ui-name"><span>虚拟化技术高级架构...</span></div></div></div><div class="break-word font-size-24 ui-requirement"><p>任职职责</p><p>-负责虚拟化技术应用的设计、开发，以及性能分析及改进等工作 <br />
+-与业务部门进行需求沟通，设计并实现满足业务需求的模型和平台 <br />
+-组织团队的技术学习培训、提升团队技术能力</p></div><div class="relative text-right ui-apply-btn"><a href="/job/4d779e6786db9becbf54c68147e9f435"><img src="img/button.png"/></a></div><div class="absolute ui-role-title"><img src="img/title.png"/></div><div class="absolute ui-role"><img src="img/role.png"/></div></div></div><div class="swiper-slide sub-swiper-slide sub-slide-job sub-slide-job-programming"><div class="relative center slide-wrapper"><div class="clearfix font-size-28 ui-head-wrapper"><div class="ui-head"><div class="pull-right ui-salary"><span>￥14k-22k</span></div><div class="pull-left ui-name"><span>计算机科学教学研究...</span></div></div></div><div class="break-word font-size-24 ui-requirement"><p>任职职责</p><p>-负责课程与教学体系梳理 <br />
+-对课程教学内容所需的教学工具与方法提出明确需求 <br />
+-积极参与计算教育领域相关研究与学术会议</p></div><div class="relative text-right ui-apply-btn"><a href="/job/0b5689af0f12a26122d281375b65af13"><img src="img/button.png"/></a></div><div class="absolute ui-role-title"><img src="img/title.png"/></div><div class="absolute ui-role"><img src="img/role.png"/></div></div></div><div class="swiper-slide sub-swiper-slide sub-slide-job sub-slide-job-marketing"><div class="relative center slide-wrapper"><div class="clearfix font-size-28 ui-head-wrapper"><div class="ui-head"><div class="pull-right ui-salary"><span>￥6k-12k</span></div><div class="pull-left ui-name"><span>计算机课程合作主管</span></div></div></div><div class="break-word font-size-24 ui-requirement"><p>任职职责</p><p>-参与高校老师、行业协会互动，促进计算机专业相关教学内容迭代和被高校采用 <br />
+-推动与跟进高校老师对于计蒜客平台的使用-收集来自高校的针对平台的意见反馈</p></div><div class="relative text-right ui-apply-btn"><a href="/job/42177511c9a58f82549a7bd6639f7cb2"><img src="img/button.png"/></a></div><div class="absolute ui-role-title"><img src="img/title.png"/></div><div class="absolute ui-role"><img src="img/role.png"/></div></div></div><div class="swiper-slide sub-swiper-slide sub-slide-job sub-slide-job-programming"><div class="relative center slide-wrapper"><div class="clearfix font-size-28 ui-head-wrapper"><div class="ui-head"><div class="pull-right ui-salary"><span>￥13k-26k</span></div><div class="pull-left ui-name"><span>iOS研发工程师</span></div></div></div><div class="break-word font-size-24 ui-requirement"><p>任职职责</p><p>-根据产品需求开发计蒜客相关的客户端产品   <br />
+-学习和研究新技术以满足产品的需求    <br />
+-根据开发过程中的体验对产品提出改进建议  <br />
+-配合市场等其他部门，提供产品相关技术支持</p></div><div class="relative text-right ui-apply-btn"><a href="/job/79d5542f501048fea70951480d4e79bc"><img src="img/button.png?v201412181635"/></a></div><div class="absolute ui-role-title"><img src="img/title.png?v201412181635"/></div><div class="absolute ui-role"><img src="img/role.png?v201412181635"/></div></div></div><div class="swiper-slide sub-swiper-slide sub-slide-job sub-slide-job-programming"><div class="relative center slide-wrapper"><div class="clearfix font-size-28 ui-head-wrapper"><div class="ui-head"><div class="pull-right ui-salary"><span>￥11k-22k</span></div><div class="pull-left ui-name"><span>web前端工程师</span></div></div></div><div class="break-word font-size-24 ui-requirement"><p>任职职责</p><p>-教育互联网相关产品的前端系统设计、开发与实现 <br />
+-Web与移动互联网前沿技术研究与新技术创新<br />
+-通过研究学习最新技术，满足产品的实际需要</p></div><div class="relative text-right ui-apply-btn"><a href="/job/185965fce4128e6ffecfb012fe8fdcf3"><img src="img/button.png?v201412181635"/></a></div><div class="absolute ui-role-title"><img src="img/title.png?v201412181635"/></div><div class="absolute ui-role"><img src="img/role.png?v201412181635"/></div></div></div><div class="swiper-slide sub-swiper-slide sub-slide-job sub-slide-job-product"><div class="relative center slide-wrapper"><div class="clearfix font-size-28 ui-head-wrapper"><div class="ui-head"><div class="pull-right ui-salary"><span>￥12k-24k</span></div><div class="pull-left ui-name"><span>跨平台教育产品设计...</span></div></div></div><div class="break-word font-size-24 ui-requirement"><p>任职职责</p><p>-参与计蒜客网页产品的设计，推动计蒜客iPhone 、Android客户端的产品创新和尝试  <br />
+-与设计、技术团队紧密配合，快速、高效推动产品设计、研发、测试及上线，确保产品按时、高质量交付</p></div><div class="relative text-right ui-apply-btn"><a href="/job/5a1e58d995f836eecca1a9f667e5d97a"><img src="img/button.png?v201412181635"/></a></div><div class="absolute ui-role-title"><img src="img/title.png?v201412181635"/></div><div class="absolute ui-role"><img src="img/role.png?v201412181635"/></div></div></div><div class="swiper-slide sub-swiper-slide sub-slide-job sub-slide-job-programming"><div class="relative center slide-wrapper"><div class="clearfix font-size-28 ui-head-wrapper"><div class="ui-head"><div class="pull-right ui-salary"><span>￥18k-36k</span></div><div class="pull-left ui-name"><span>PHP高级研发工程...</span></div></div></div><div class="break-word font-size-24 ui-requirement"><p>任职职责</p><p>-教育互联网相关产品的PHP研发工作 <br />
+-通过研究学习最新技术，满足产品的实际需要 <br />
+-结合产品目标进行技术创新</p></div><div class="relative text-right ui-apply-btn"><a href="/job/e9d23172119f074e989cf9bda40a302f"><img src="img/button.png?v201412181635"/></a></div><div class="absolute ui-role-title"><img src="img/title.png?v201412181635"/></div><div class="absolute ui-role"><img src="img/role.png?v201412181635"/></div></div></div><div class="swiper-slide sub-swiper-slide sub-slide-job sub-slide-job-programming"><div class="relative center slide-wrapper"><div class="clearfix font-size-28 ui-head-wrapper"><div class="ui-head"><div class="pull-right ui-salary"><span>￥4k-8k</span></div><div class="pull-left ui-name"><span>PHP研发实习工程...</span></div></div></div><div class="break-word font-size-24 ui-requirement"><p>任职职责</p><p>-教育互联网相关产品的PHP研发工作 <br />
+-通过研究学习最新技术，满足产品的实际需要</p></div><div class="relative text-right ui-apply-btn"><a href="/job/c4050a0aaf49a754a01cc9d6124bb461"><img src="img/button.png?v201412181635"/></a></div><div class="absolute ui-role-title"><img src="img/title.png?v201412181635"/></div><div class="absolute ui-role"><img src="img/role.png?v201412181635"/></div></div></div><div class="swiper-slide sub-swiper-slide sub-slide-job sub-slide-job-programming"><div class="relative center slide-wrapper"><div class="clearfix font-size-28 ui-head-wrapper"><div class="ui-head"><div class="pull-right ui-salary"><span>￥18k-36k</span></div><div class="pull-left ui-name"><span>web前端高级工程...</span></div></div></div><div class="break-word font-size-24 ui-requirement"><p>任职职责</p><p>-教育互联网相关产品的前端系统设计、开发与实现 <br />
+-Web与移动互联网前沿技术研究与新技术创新<br />
+-通过研究学习最新技术，满足产品的实际需要</p></div><div class="relative text-right ui-apply-btn"><a href="/job/b09ebce380ae7ae9243704ba2c6307fe"><img src="img/button.png?v201412181635"/></a></div><div class="absolute ui-role-title"><img src="img/title.png?v201412181635"/></div><div class="absolute ui-role"><img src="img/role.png?v201412181635"/></div></div></div><div class="swiper-slide sub-swiper-slide sub-slide-job sub-slide-job-programming"><div class="relative center slide-wrapper"><div class="clearfix font-size-28 ui-head-wrapper"><div class="ui-head"><div class="pull-right ui-salary"><span>￥14k-28k</span></div><div class="pull-left ui-name"><span>PHP研发工程师</span></div></div></div><div class="break-word font-size-24 ui-requirement"><p>任职职责</p><p>-教育互联网相关产品的PHP研发工作 <br />
+-通过研究学习最新技术，满足产品的实际需要</p></div><div class="relative text-right ui-apply-btn"><a href="/job/c1dddd5a37924a02c9830ed7f4533017"><img src="img/button.png?v201412181635"/></a></div><div class="absolute ui-role-title"><img src="img/title.png?v201412181635"/></div><div class="absolute ui-role"><img src="img/role.png?v201412181635"/></div></div></div></div></div><!-- <div class="absolute ui-left-btn js-left-btn"></div> --><!-- <div class="absolute ui-right-btn js-right-btn"></div> --></div></div></div>
+<div class="swiper-slide slide-share" data-hash="slide-end"><div class="slide-wrapper"><div class="text-center ui-logo"><img src="img/5f23186dfc3a4ba1a0a1d1309f9962fd2f63405e.jpg"/></div><div class="nowrap text-center font-size-36 ui-title"><a href="/e/10288">矩道优达<span class="ui-arrow">&nbsp;&nbsp;&gt;&gt;</span></a></div><div class="ui-share"><a class="absolute center text-center font-size-28 js-share-btn" href="javascript:;"><img class="vertical-middle" src="img/share.png?v201412181635"/>&nbsp;
+                            <span class="c-white">分享好友</span></a></div><div class="text-center font-size-28 ui-guide"><a href="/e/power/guide">我要制作&gt;&gt;</a></div><div class="text-center font-size-28 ui-follow" style="display:none;"><a href="javascript:;">周伯通招聘&gt;&gt;</a></div><div class="absolute center text-center ui-site-logo"><img src="img/jobtong.png?v201412181635"/></div></div></div></div></div></div></div><div class="content-sidebar js-content-sidebar"><div class="sidebar-section qrcode-info"><div class="section-detail"><p class="text-center sidebar-title">微信“扫一扫”分享朋友圈</p><p id="qr-code" class="text-center qr-code"></p></div></div></div></div></div><div style="display:none;">
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fcbd1c666d9ecfce2daab16095311bc1c' type='text/javascript'%3E%3C/script%3E"));
+</script>
+</div>
+</body>
+<script>
+( new MobileSlider() ).init();
+</script>
+<script>
+	// URL 二维码图
+	setTimeout( function() {
+		/android|webos|iphone|ipad|ipod|blackberry|iemobile|opera mini/i.test( navigator.userAgent.toLowerCase() ) || $( "#qr-code" ).html( '<img width="158" height="158" src="http://s.jiathis.com/qrcode.php?url=' + window.location.href.split( "#" )[0] + '">' ).closest( ".js-content-sidebar" ).show();
+	}, 0 );
+</script>
+</html>

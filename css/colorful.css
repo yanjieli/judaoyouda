@@ -1,0 +1,631 @@
+/* global */
+.swiper-slide {
+    color:#fff;
+    overflow: visible;
+}
+
+/* cover */
+.slide-cover {
+    background: #8f5286 url('../../../images/wei-user/colorful/cover/bg.jpg?v201412181635') no-repeat top center;
+}
+
+.slide-cover .ui-top-space {
+    height:15%;
+}
+
+.slide-cover .ui-center-space {
+    height:8%;
+}
+
+.slide-cover .ui-logo {
+    height: 180px;
+    opacity: 0;
+    -webkit-animation: fadeInDown 0.2s ease-in 0.2s 1;
+    animation: fadeInDown 0.2s ease-in 0.2s 1;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+.slide-cover .ui-logo img {
+    width: 180px;
+    height: 180px;
+    border:4px solid #e5bfc6;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.slide-cover .ui-row-company {
+    opacity: 0;
+    -webkit-animation: fadeInDown 0.2s ease-in 0.3s 1;
+    animation: fadeInDown 0.2s ease-in 0.3s 1;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+.slide-cover .ui-row-space {
+    height:7%;
+}
+
+.slide-cover .ui-invitation {
+    width: 570px;
+    line-height: 45px;
+    border-radius: 8px;
+    overflow: visible;
+    opacity: 0;
+    -webkit-animation: fadeInDown 0.2s ease-in 0.4s 1;
+    animation: fadeInDown 0.2s ease-in 0.4s 1;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+.slide-cover .ui-invitation .ui-text {
+    padding:18px;
+}
+
+.slide-cover .ui-host {
+    width: 100%;
+    bottom:7%;
+    opacity: 0;
+    -webkit-animation: bounceInUp 0.2s ease 0.6s 1;
+    animation: bounceInUp 0.2s ease 0.6s 1;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+/* introduction */
+.slide-introduction {
+    background: #1e4174 url('../../../images/wei-user/colorful/introduction/bg.jpg?v201412181635') no-repeat top center;
+}
+
+.slide-introduction .ui-top-space {
+    height:8%;
+}
+
+.slide-introduction .ui-title {
+    height: 15%;
+    margin:0 0 0 35px;
+    opacity: 0;
+    -webkit-animation:fadeInLeft 1s ease-out;
+    animation:fadeInLeft 1s ease-out;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+.slide-introduction .ui-title img {
+    height: 100%;
+    margin:0 30px 0 0;
+}
+
+.slide-introduction .ui-row-space {
+    height: 4%;
+}
+
+.slide-introduction .ui-row {
+    margin:0 0 0 35px;
+}
+
+.slide-introduction .ui-row .ui-arrow {
+    width: 32px;
+    height: 58px;
+    line-height: 58px;
+    margin:0;
+    padding:0;
+    background: rgba(0, 0, 0, 0) url('../../../images/wei-user/colorful/introduction/arrow.png?v201412181635') no-repeat center center;
+}
+
+.slide-introduction .ui-row .ui-text {
+    display: inline-block;
+    min-width: 238px;
+    height: 58px;
+    line-height: 53px;
+    color:#585171;
+    padding:0 22px 0 13px;
+    margin:0 0 0 -1px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background-color:#fff;
+}
+
+.slide-introduction .ui-row .ui-tail {
+    width: 158px;
+    height: 58px;
+    line-height: 58px;
+    margin:0 0 0 10px;
+    padding:0;
+    background: rgba(0, 0, 0, 0) url('../../../images/wei-user/colorful/introduction/tail.png?v201412181635') no-repeat bottom left;
+}
+
+.slide-introduction .ui-row-valuation {
+    opacity: 0;
+    -webkit-animation:moveInLeft 0.8s ease-out 0.1s;
+    animation:moveInLeft 0.8s ease-out 0.1s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+.slide-introduction .ui-row-financing {
+    opacity: 0;
+    -webkit-animation:moveInLeft 0.8s ease-out 0.2s;
+    animation:moveInLeft 0.8s ease-out 0.2s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+.slide-introduction .ui-row-agency {
+    opacity: 0;
+    -webkit-animation:moveInLeft 0.8s ease-out 0.3s;
+    animation:moveInLeft 0.8s ease-out 0.3s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+.slide-introduction .ui-row-others {
+    opacity: 0;
+    -webkit-animation:moveInLeft 0.8s ease-out 0.4s;
+    animation:moveInLeft 0.8s ease-out 0.4s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+.slide-introduction .ui-center-space {
+    height:8%;
+}
+
+.slide-introduction .ui-invitation-title {
+    margin: 0 0 0 35px;
+    opacity: 0;
+    animation:moveInLeft 1.2s ease-out 0.5s;
+    -webkit-animation:moveInLeft 1.2s ease-out 0.5s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+.slide-introduction .ui-invitation-bubble {
+    width: 570px;
+    line-height: 45px;
+    color:#585171;
+    border-radius: 8px;
+    background-color:#fff;
+    overflow: visible;
+    opacity: 0;
+    -webkit-animation:moveInLeft 1.2s ease-out 0.5s;
+    animation:moveInLeft 1.2s ease-out 0.5s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+.slide-introduction .ui-invitation-bubble .ui-triangle {
+    width: 28px;
+    height: 9px;
+    top:-9px;
+    left:3em;
+    background: rgba(0, 0, 0, 0) url('../../../images/wei-user/colorful/introduction/triangle.png?v201412181635') no-repeat bottom center;
+}
+
+.slide-introduction .ui-invitation-bubble .ui-text {
+    padding:18px;
+}
+
+/* bonus */
+.slide-bonus {
+    background: #294561 url('../../../images/wei-user/colorful/bonus/bg.jpg?v201412181635') no-repeat top center;
+}
+
+.slide-bonus .ui-top-space {
+    height:8%;
+}
+
+.slide-bonus .ui-title {
+    opacity: 0;
+    -webkit-animation: lightSpeedInUp 0.2s ease-in 0.9s 1;
+    animation: lightSpeedInUp 0.2s ease-in 0.9s 1;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+.slide-bonus .ui-center-space {
+    height:30%;
+}
+
+.slide-bonus .ui-tag-cloud {
+    width: 230px;
+    height: 1px;
+    overflow: visible;
+    -webkit-animation: lightShake 1s ease-in-out;
+    animation: lightShake 1s ease-in-out;
+}
+
+.slide-bonus .ui-tag-cloud .ui-tag {
+    height: 54px;
+    line-height: 54px;
+    padding:0 8px;
+    border-radius: 8px;
+}
+
+.slide-bonus .ui-tag-cloud .c-blue {
+    color:#93c9ff;
+}
+
+.slide-bonus .ui-tag-cloud .b-blue {
+    border:2px solid #93c9ff;
+}
+
+.slide-bonus .ui-tag-cloud .c-grey {
+    color:#d7f3df;
+}
+
+.slide-bonus .ui-tag-cloud .b-grey {
+    border:2px solid #d7f3df;
+}
+
+.slide-bonus .ui-tag-cloud .c-pink {
+    color:#ffeced;
+}
+
+.slide-bonus .ui-tag-cloud .b-pink {
+    border:2px solid #ffeced;
+}
+
+/* jobs */
+.slide-jobs {
+    background: #201c41 url('../../../images/wei-user/colorful/jobs/bg.jpg?v201412181635') no-repeat top center;
+    overflow: hidden;
+}
+
+.slide-jobs .slide-wrapper {
+}
+
+.slide-jobs .ui-top-space {
+    height:4%;
+}
+
+.slide-jobs .ui-title {
+    height: 5%;
+    opacity: 0;
+    -webkit-animation: lightSpeedInUp 0.3s ease-in 0.3s 1;
+    animation: lightSpeedInUp 0.3s ease-in 0.3s 1;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+.slide-jobs .ui-center-space {
+    height:6%;
+}
+
+.sub-power-scroll-container {
+    width: 504px;
+    height: 734px;
+    overflow: visible;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    -webkit-animation: rotateIn 0.3s ease-in 0.1s 1;
+    animation: rotateIn 0.3s ease-in 0.1s 1;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+.sub-swiper-container {
+    width: 504px;
+    height: 734px;
+    overflow: visible;
+}
+
+.sub-swiper-container .sub-swiper-wrapper {
+    height: 100%;
+}
+
+.sub-swiper-container .sub-swiper-slide {
+    float: left;
+    background: none;
+    z-index: 1;
+}
+
+.sub-swiper-container .sub-swiper-slide .slide-wrapper {
+    width: 464px;
+    border-radius: 16px;
+}
+
+.sub-slide-job {
+    background-color: #333;    
+    color: #fff;
+}
+
+.sub-slide-job .ui-head-wrapper {
+    padding-top: 8px;
+    margin: 0 8px;
+}
+
+.sub-slide-job .ui-head {
+    height: 72px;
+    line-height: 72px;
+    padding: 0 14px;
+    background-color:#999;
+}
+
+.sub-slide-job .ui-requirement {
+    padding-top: 14px;
+    margin: 0 17px;
+    height: 13.5em;
+    line-height: 1.5em;
+    overflow: hidden;
+}
+
+.sub-slide-job .ui-apply-btn {
+    height: 6%;
+    padding-top:8px;
+    margin: 0 17px;
+    z-index: 999;
+}
+
+.sub-slide-job .ui-apply-btn img {
+    height: 100%;
+}
+
+.sub-slide-job .ui-role-title {
+    width: 40%;
+    left: 53%;
+    bottom: 9%;
+    z-index: 2;
+}
+
+.sub-slide-job .ui-role-title img {
+    width: 100%;
+}
+
+.sub-slide-job .ui-role {
+    bottom: -2px;
+    z-index: 1;
+}
+
+.sub-slide-job .ui-role img {
+    width: 100%;
+    border-radius: 16px;
+}
+
+.sub-slide-job-design .slide-wrapper {
+    background-color: #a665bf;    
+}
+
+.sub-slide-job-design .ui-head {
+    background-color:#9c56b9; 
+}
+
+.sub-slide-job-marketing .slide-wrapper {
+    background-color: #ec9746;    
+}
+
+.sub-slide-job-marketing .ui-head {
+    background-color: #e26e21;    
+}
+
+.sub-slide-job-operation .slide-wrapper {
+    background-color: #00bc9b;    
+}
+
+.sub-slide-job-operation .ui-head {
+    background-color: #01a185;    
+}
+
+.sub-slide-job-product .slide-wrapper {
+    background-color: #f69e00;    
+}
+
+.sub-slide-job-product .ui-head {
+    background-color: #d55300;    
+}
+
+.sub-slide-job-programming .slide-wrapper {
+    background-color: #c33825;    
+}
+
+.sub-slide-job-programming .ui-head {
+    background-color: #ff6b51;    
+}
+
+.sub-slide-job-support .slide-wrapper {
+    background-color: #ec9746;    
+}
+
+.sub-slide-job-support .ui-head {
+    background-color: #e26e21;    
+}
+
+/* rating */
+.slide-rating {
+    background: #0d405a url('../../../images/wei-user/colorful/rating/bg.jpg?v201412181635') no-repeat top center;
+}
+
+.slide-rating .ui-top-space {
+    height:10%;
+}
+
+.slide-rating .ui-logo {
+    height: 15%;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    -webkit-animation: flashIn 0.4s ease-out;
+    animation: flashIn 0.4s ease-out;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+.slide-rating .ui-logo img {
+    height: 100%;
+    border:4px solid #e5bfc6;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.slide-rating .ui-center-space {
+    height:13%;
+}
+
+.slide-rating .ui-ranking {
+    line-height: 40px;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    -webkit-animation: flashIn 0.4s ease-out 0.1s;
+    animation: flashIn 0.4s ease-out 0.1s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+.slide-rating .ui-ranking .ui-crown {
+    width: 48px;
+    height:50px;
+    background: rgba(0,0,0,0) url('../../../images/wei-user/colorful/rating/crown.png?v201412181635') no-repeat top center;
+    background-size:100%;
+}
+
+.slide-rating .ui-center-small-space {
+    height:4%;
+}
+
+.slide-rating .ui-statistic {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    -webkit-animation: flashIn 0.4s ease-out 0.2s;
+    animation: flashIn 0.4s ease-out 0.2s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+.slide-rating .ui-statistic .ui-highlight {
+    display: inline-block;
+    color:#ffff17;
+    -webkit-animation: lightShake 0.7s ease-out 0.5s;
+    animation: lightShake 0.7s ease-out 0.5s;
+}
+
+.slide-rating .ui-statistic .ui-highlight.a-largen-out {
+    animation:largenOut 0.8s ease-in;
+    -webkit-animation:largenOut 0.8s ease-in
+}
+
+.slide-rating .ui-fav-btn {
+    width: 230px;
+    height: 80px;
+    line-height: 80px;
+    border:2px solid #fff;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    -webkit-animation: flashIn 0.4s ease-out 0.3s;
+    animation: flashIn 0.4s ease-out 0.3s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+.slide-rating .ui-fav-btn .ui-heart {
+    display: inline-block;
+    width: auto;
+    height: 56px;
+}
+
+/* share */
+
+.slide-share {
+    background: #4b574d url('../../../images/wei-user/colorful/share/bg.jpg?v201412181635') no-repeat top center;
+}
+
+.slide-share .ui-logo {
+    padding-top: 20%;
+    opacity: 0;
+    -webkit-animation: flashIn 0.2s linear 0.1s 1;
+    -moz-animation: flashIn 0.2s linear 0.1s 1;
+    -ms-animation: flashIn 0.2s linear 0.1s 1;
+    animation: flashIn 0.2s linear 0.1s 1;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -ms-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+.slide-share .ui-logo img {
+    height: 180px;
+    border-radius: 12px;
+}
+
+.slide-share .ui-title {
+    padding-top: 40px;
+    margin: 0 40px;
+    line-height: 1.8em;
+    opacity: 0;
+    -webkit-animation: bounceIn 0.2s linear 0.3s 1;
+    -moz-animation: bounceIn 0.2s linear 0.3s 1;
+    -ms-animation: bounceIn 0.2s linear 0.3s 1;
+    animation: bounceIn 0.2s linear 0.3s 1;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -ms-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+.slide-share .ui-title a {
+    color:#fff;
+}
+
+.slide-share .ui-title .ui-arrow {
+    color: #ccc;
+    opacity: 0;
+    -webkit-animation: fadeInRight 0.8s infinite 0.6s ease-in-out;
+    -moz-animation: fadeInRight 0.8s infinite 0.6s ease-in-out;
+    -ms-animation: fadeInRight 0.8s infinite 0.6s ease-in-out;
+    animation: fadeInRight 0.8s infinite 0.6s ease-in-out;
+}
+
+.slide-share .ui-share {
+    width: 274px;
+    height: 94px;
+    padding-top: 70px;
+    margin: 0 auto;
+    opacity: 0;
+    -webkit-animation: flashIn 0.2s linear 0.4s 1;
+    -moz-animation: flashIn 0.2s linear 0.4s 1;
+    -ms-animation: flashIn 0.2s linear 0.4s 1;
+    animation: flashIn 0.2s linear 0.4s 1;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -ms-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+.slide-share .ui-share a {
+    width: 230px;
+    height: 80px;
+    line-height: 80px;
+    border:2px solid #fff;
+    border-radius: 6px;
+}
+
+.slide-share .ui-guide {
+    width: 6em;
+    padding-top: 40px;
+    margin: 0 auto;
+    opacity: 0;
+    -webkit-animation: flashIn 0.2s linear 0.4s 1;
+    -moz-animation: flashIn 0.2s linear 0.4s 1;
+    -ms-animation: flashIn 0.2s linear 0.4s 1;
+    animation: flashIn 0.2s linear 0.4s 1;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -ms-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+.slide-share .ui-guide a {
+    display: block;
+    color:#ccc;
+}
+
+.slide-share .ui-site-logo {
+    bottom: 50px;
+    opacity: 0;
+    -webkit-animation: flashIn 0.3s linear 0.6s 1;
+    -moz-animation: flashIn 0.3s linear 0.6s 1;
+    -ms-animation: flashIn 0.3s linear 0.6s 1;
+    animation: flashIn 0.3s linear 0.6s 1;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -ms-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
