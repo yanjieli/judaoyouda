@@ -6,7 +6,7 @@
 
 /* cover */
 .slide-cover {
-    background: #8f5286 url('../../../images/wei-user/colorful/cover/bg.jpg?v201412181635') no-repeat top center;
+    background: #8f5286 url('../img/bg.jpg') no-repeat top center;
 }
 
 .slide-cover .ui-top-space {
@@ -74,7 +74,7 @@
 
 /* introduction */
 .slide-introduction {
-    background: #1e4174 url('../../../images/wei-user/colorful/introduction/bg.jpg?v201412181635') no-repeat top center;
+    background: #1e4174 url('../img/bg_intro.jpg') no-repeat top center;
 }
 
 .slide-introduction .ui-top-space {
@@ -110,7 +110,7 @@
     line-height: 58px;
     margin:0;
     padding:0;
-    background: rgba(0, 0, 0, 0) url('../../../images/wei-user/colorful/introduction/arrow.png?v201412181635') no-repeat center center;
+    background: rgba(0, 0, 0, 0) url('../img/arrow.png') no-repeat center center;
 }
 
 .slide-introduction .ui-row .ui-text {
@@ -132,7 +132,7 @@
     line-height: 58px;
     margin:0 0 0 10px;
     padding:0;
-    background: rgba(0, 0, 0, 0) url('../../../images/wei-user/colorful/introduction/tail.png?v201412181635') no-repeat bottom left;
+    background: rgba(0, 0, 0, 0) url('../img/tail.png') no-repeat bottom left;
 }
 
 .slide-introduction .ui-row-valuation {
@@ -199,7 +199,7 @@
     height: 9px;
     top:-9px;
     left:3em;
-    background: rgba(0, 0, 0, 0) url('../../../images/wei-user/colorful/introduction/triangle.png?v201412181635') no-repeat bottom center;
+    background: rgba(0, 0, 0, 0) url('../img/triangle.png') no-repeat bottom center;
 }
 
 .slide-introduction .ui-invitation-bubble .ui-text {
@@ -208,7 +208,7 @@
 
 /* bonus */
 .slide-bonus {
-    background: #294561 url('../../../images/wei-user/colorful/bonus/bg.jpg?v201412181635') no-repeat top center;
+    background: #294561 url('../img/bg_bonus.jpg') no-repeat top center;
 }
 
 .slide-bonus .ui-top-space {
@@ -268,7 +268,7 @@
 
 /* jobs */
 .slide-jobs {
-    background: #201c41 url('../../../images/wei-user/colorful/jobs/bg.jpg?v201412181635') no-repeat top center;
+    background: #201c41 url('../img/bg_jobs.jpg') no-repeat top center;
     overflow: hidden;
 }
 
@@ -432,7 +432,7 @@
 
 /* rating */
 .slide-rating {
-    background: #0d405a url('../../../images/wei-user/colorful/rating/bg.jpg?v201412181635') no-repeat top center;
+    background: #0d405a url('../img/bg_rating.jpg') no-repeat top center;
 }
 
 .slide-rating .ui-top-space {
@@ -473,7 +473,7 @@
 .slide-rating .ui-ranking .ui-crown {
     width: 48px;
     height:50px;
-    background: rgba(0,0,0,0) url('../../../images/wei-user/colorful/rating/crown.png?v201412181635') no-repeat top center;
+    background: rgba(0,0,0,0) url('../img/crown.png') no-repeat top center;
     background-size:100%;
 }
 
@@ -524,7 +524,7 @@
 /* share */
 
 .slide-share {
-    background: #4b574d url('../../../images/wei-user/colorful/share/bg.jpg?v201412181635') no-repeat top center;
+    background: #4b574d url('../img/bg_share.jpg') no-repeat top center;
 }
 
 .slide-share .ui-logo {
