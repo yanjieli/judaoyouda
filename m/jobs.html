@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html class="ui-viewport-640" lang="zh-CN">
+<head><meta charset="utf-8">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="format-detection" content="telephone=no">
+<meta http-equiv="cleartype" content="on">
+<title>我是矩道优达，我在等人才</title>
+<script>
+    // class
+    ! function( navigator ) {
+        var userAgent = navigator.userAgent;
+            documentElement = document.documentElement;
+        if ( userAgent.match( /micromessenger\/5/gi ) ) {
+            documentElement.className += " mobile wx_mobile wx_mobile_5";
+        } else if ( userAgent.match( /micromessenger/gi ) ) {
+            documentElement.className += " mobile wx_mobile";
+        } else if ( userAgent.match( /ucbrowser/gi ) ) {
+            documentElement.className += " mobile uc_mobile";
+        } else if ( /android|webos|iphone|ipad|ipod|blackberry|iemobile|opera mini/i.test( userAgent.toLowerCase() ) ) {
+            documentElement.className += " mobile";
+        } else if ( userAgent.toLowerCase().match( /msie/gi ) && ( parseFloat( userAgent.toLowerCase().match( /msie ([0-9]{1,}[\.0-9]{0,})/i )[1] || 999 ) < 9 ) ) {
+            documentElement.className += " pc pc-ie pc-ie8";
+        } else if ( userAgent.toLowerCase().match( /msie/gi ) || navigator.msPointerEnabled || navigator.pointerEnabled ) {
+             documentElement.className += " pc pc-ie";
+        } else {
+            documentElement.className += " pc";
+        }
+    }( navigator );
+    // meta
+    ! function( userAgent ) {
+        var screen_w = parseInt(window.screen.width),
+            scale = screen_w / 640;
+        if ( /Android (\d+\.\d+)/.test( userAgent ) ) {
+            var version = parseFloat( RegExp.$1 );
+            document.write( version > 2.3
+                ? '<meta name="viewport" content="width=640, minimum-scale = ' + scale + ", maximum-scale = " + scale + ', target-densitydpi=device-dpi">'
+                : '<meta name="viewport" content="width=640, target-densitydpi=device-dpi">' );
+        } else {
+            document.write( '<meta name="viewport" content="width=640, user-scalable=no, target-densitydpi=device-dpi">' );
+        }
+    }( navigator.userAgent );
+</script>
+<link rel="stylesheet" type="text/css" href="css/aio.min.css">
+<script src="js/aio.min.js"></script>
+<script type="text/javascript" name="baidu-tc-cerfication" src="js/lightapp.js"></script>
+</head>
+<body>
+<!-- container -->
+<div class="container">
+    <div class="content">
+        <div class="content-body">
+            <div class="ui-loading js-loading">
+                <i class="fa fa-circle-o-notch fa-spin fa-3x"></i>
+            </div>
+        <div class="power-scroll-container js-power-scroll-container">
+        
+        <link href="css/colorful.css" rel="stylesheet" type="text/css">
+        <script src="js/colorful.js"></script>
+        <script>
+            var _defaultShareData = {
+                imgUrl: "img/5f23186dfc3a4ba1a0a1d1309f9962fd2f63405e.jpg",
+                imgWidth: "180",
+                imgHeight: "180",
+                title: "我是矩道优达，我在等人才",
+                desc: "极客文化，内部知识分享，扁平管理，五险一金，每日餐补，弹性工作"
+            };
+            navigator.userAgent.match( /micromessenger/gi ) && Share.WeChat.setData( _defaultShareData );
+        </script>
+        <div class="swiper-container js-power-scroll" data-options='{"hashNav":true,"mode":"vertical","loop":true,"shadow":true}'>
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide-cover" data-hash="cover">
+                    <div class="slide-wrapper">
+                        <div class="ui-top-space"></div>
+                        <div class="text-center ui-logo">
+                            <img src="img/5f23186dfc3a4ba1a0a1d1309f9962fd2f63405e.jpg"/>
+                        </div>
+                        <div class="ui-row-space"></div>
+                        <div class="text-center font-size-40 ui-row ui-row-company">
+                            <span>矩道优达</span>
+                        </div>
+                        <div class="ui-row-space"></div>
+                        <div class="relative center text-center font-size-32 ui-invitation">
+                            <div class="ui-text">
+                                <span>极客文化，内部知识分享，扁平管理，五险一金，每日餐补，弹性工作&nbsp;</span>
+                            </div>
+                        </div>
+                        <div class="absolute text-center ui-host">
+                            <!--footer icon img-->
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide slide-introduction" data-hash="introduction">
+                    <div class="slide-wrapper">
+                        <div class="ui-top-space"></div>
+                        <div class="nowrap font-size-36 ui-title">
+                            <img class="vertical-middle" src="img/5f23186dfc3a4ba1a0a1d1309f9962fd2f63405e.jpg"/>
+                            <span>矩道优达</span>
+                        </div>
+                        <div class="ui-row-space"></div>
+                        <div class="nowrap font-size-28 ui-row ui-row-financing">
+                            <div class="inline-block vertical-middle ui-arrow"></div>
+                            <div class="inline-block ui-text">
+                                <span>融资：A轮</span>
+                            </div>
+                            <div class="inline-block vertical-middle ui-tail"></div>
+                        </div>
+                        <div class="ui-row-space"></div>
+                        <div class="nowrap font-size-28 ui-row ui-row-agency">
+                            <div class="inline-block vertical-middle ui-arrow"></div>
+                            <div class="inline-block ui-text">
+                                <span>投资机构：紫辉创投</span>
+                            </div>
+                            <div class="inline-block vertical-middle ui-tail"></div>
+                        </div>
+                        <div class="ui-row-space"></div>
+                        <div class="nowrap font-size-28 ui-row ui-row-others">
+                            <div class="inline-block vertical-middle ui-arrow"></div>
+                            <div class="inline-block ui-text">
+                                <span>北京&nbsp;|&nbsp;教育&nbsp;|&nbsp;15-50人&nbsp;|&nbsp;私企</span>
+                            </div>
+                            <div class="inline-block vertical-middle ui-tail"></div>
+                        </div>
+                        <div class="ui-row-space"></div>
+                        <div class="font-size-28 ui-invitation ui-invitation-title">
+                            <span>关于我们…</span>
+                        </div>
+                        <div class="ui-row-space"></div>
+                        <div class="relative center font-size-28 ui-invitation ui-invitation-bubble">
+                            <div class="absolute ui-triangle"></div>
+                            <div class="ui-text">
+                                <span>矩道优达是一家提供在线教育与教育信息服务的公司。但是与很多教育公司都不一样，矩道优达致力于提供一个由内而外的全新教育方式，提供最优的教育体验。让...</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide slide-bonus" data-hash="bonus">
+                    <div class="slide-wrapper">
+                        <div class="ui-top-space"></div>
+                        <div class="text-center font-size-68 ui-title">
+                            <span>那些走心的福利</span>
+                        </div>
+                        <div class="ui-center-space"></div>
+                        <div class="relative center font-size-44 ui-tag-cloud">
+                            <div class="absolute nowrap c-grey b-grey ui-tag" style="top:-192px;left:-22px;animation:floatLeftTilt 8s infinite ease-in -2s;-webkit-animation:floatLeftTilt 8s infinite ease-in -6s;">
+                                <span>MacBook标配</span>
+                            </div>
+                            <div class="absolute nowrap c-pink b-pink ui-tag" style="top:-139px;left:46px;animation:floatUpDown 8s infinite ease-in -5s;-webkit-animation:floatUpDown 8s infinite ease-in -4s;">
+                                <span>五险一金</span>
+                            </div>
+                            <div class="absolute nowrap c-blue b-blue ui-tag" style="top:-100px;left:-19px;animation:floatRightTilt 8s infinite ease-in -5s;-webkit-animation:floatRightTilt 8s infinite ease-in -4s;">
+                                <span>交通补助</span>
+                            </div>
+                            <div class="absolute nowrap c-pink b-pink ui-tag" style="top:167px;left:125px;animation:floatRightTilt 8s infinite ease-in -5s;-webkit-animation:floatRightTilt 8s infinite ease-in -2s;">
+                                <span>每日餐补</span>
+                            </div>
+                            <div class="absolute nowrap c-grey b-grey ui-tag" style="top:-41px;left:122px;animation:floatLeftTilt 8s infinite ease-in -6s;-webkit-animation:floatLeftTilt 8s infinite ease-in -6s;">
+                                <span>内部知识分享</span>
+                            </div>
+                            <div class="absolute nowrap c-blue b-blue ui-tag" style="top:49px;left:146px;animation:floatRightTilt 8s infinite ease-in -3s;-webkit-animation:floatRightTilt 8s infinite ease-in -3s;">
+                                <span>弹性工作</span>
+                            </div>
+                            <div class="absolute nowrap c-grey b-grey ui-tag" style="top:100px;left:-41px;animation:floatLeftTilt 8s infinite ease-in -5s;-webkit-animation:floatLeftTilt 8s infinite ease-in -2s;">
+                                <span>扁平管理</span>
+                            </div>
+                            <div class="absolute nowrap c-pink b-pink ui-tag" style="top:152px;left:85px;animation:floatUpDown 8s infinite ease-in -4s;-webkit-animation:floatUpDown 8s infinite ease-in -4s;">
+                                <span>极客文化</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide slide-jobs" data-hash="jobs">
+                    <div class="slide-wrapper">
+                        <div class="ui-top-space"></div>
+                        <div class="text-center font-size-36 ui-title">
+                            <span>我们急需核心职位（合肥）</span>
+                        </div>
+                        <div class="ui-center-space"></div>
+                        <div class="relative center sub-power-scroll-container js-sub-power-scroll-container">
+                            <div class="absolute swiper-container sub-swiper-container js-sub-power-scroll">
+                                <div class="swiper-wrapper sub-swiper-wrapper">
+                                    <div class="swiper-slide sub-swiper-slide sub-slide-job sub-slide-job-programming">
+                                        <div class="relative center slide-wrapper">
+                                            <div class="clearfix font-size-28 ui-head-wrapper">
+                                                <div class="ui-head">
+                                                    <div class="pull-right ui-salary">
+                                                        <span>￥13k-26k</span>
+                                                    </div>
+                                                    <div class="pull-left ui-name">
+                                                        <span>iOS研发工程师</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="break-word font-size-24 ui-requirement">
+                                                <p>任职职责</p>
+                                                <p>-根据产品需求开发计蒜客相关的客户端产品    <br />
+                                                   -学习和研究新技术以满足产品的需求 <br />
+                                                   -根据开发过程中的体验对产品提出改进建议  <br />
+                                                   -配合市场等其他部门，提供产品相关技术支持 
+                                                </p>
+                                            </div>
+                                            <div class="relative text-right ui-apply-btn">
+                                                <a href="http://www.lagou.com/jobs/289305.html">
+                                                    <img src="img/button.png"/>
+                                                </a>
+                                            </div>
+                                            <div class="absolute ui-role-title">
+                                                <img src="img/title_cxy.png"/>
+                                            </div>
+                                            <div class="absolute ui-role">
+                                                <img src="img/role.png"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide sub-swiper-slide sub-slide-job sub-slide-job-programming">
+                                        <div class="relative center slide-wrapper">
+                                            <div class="clearfix font-size-28 ui-head-wrapper">
+                                                <div class="ui-head">
+                                                    <div class="pull-right ui-salary">
+                                                        <span>￥11k-20k</span>
+                                                    </div>
+                                                    <div class="pull-left ui-name">
+                                                        <span>Android研发工程师</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="break-word font-size-24 ui-requirement">
+                                                <p>任职职责</p>
+                                                <p>-根据产品需求开发计蒜客相关的客户端产品 <br />
+                                                   -验证和修正测试中发现的问题  <br />
+                                                   -学习和研究新技术以满足产品的需求  <br />
+                                                   -根据开发过程中的体验对产品提出改进建议  
+                                                </p>
+                                            </div>
+                                            <div class="relative text-right ui-apply-btn">
+                                                <a href="http://www.lagou.com/jobs/372593.html?source=company">
+                                                    <img src="img/button.png"/>
+                                                </a>
+                                            </div>
+                                            <div class="absolute ui-role-title">
+                                                <img src="img/title_cxy.png"/>
+                                            </div>
+                                            <div class="absolute ui-role">
+                                                <img src="img/role.png"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide sub-swiper-slide sub-slide-job sub-slide-job-programming">
+                                        <div class="relative center slide-wrapper">
+                                            <div class="clearfix font-size-28 ui-head-wrapper">
+                                                <div class="ui-head">
+                                                    <div class="pull-right ui-salary">
+                                                        <span>￥14k-22k</span>
+                                                    </div>
+                                                    <div class="pull-left ui-name">
+                                                        <span>计算学科教学研究员</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="break-word font-size-24 ui-requirement">
+                                                <p>任职职责</p>
+                                                <p>-负责课程与教学体系梳理 <br />
+                                                   -对课程教学内容所需的教学工具与方法提出明确需求 <br />
+                                                   -积极参与计算教育领域相关研究与学术会议
+                                                </p>
+                                            </div>
+                                            <div class="relative text-right ui-apply-btn">
+                                                <a href="http://www.lagou.com/jobs/289523.html">
+                                                    <img src="img/button.png"/>
+                                                </a>
+                                            </div>
+                                            <div class="absolute ui-role-title">
+                                                <img src="img/title_yjy.png"/>
+                                            </div>
+                                            <div class="absolute ui-role">
+                                                <img src="img/role3.png"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide sub-swiper-slide sub-slide-job sub-slide-job-programming">
+                                        <div class="relative center slide-wrapper">
+                                            <div class="clearfix font-size-28 ui-head-wrapper">
+                                                <div class="ui-head">
+                                                    <div class="pull-right ui-salary">
+                                                        <span>￥10k-16k</span>
+                                                    </div>
+                                                    <div class="pull-left ui-name">
+                                                        <span>教学研究助理</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="break-word font-size-24 ui-requirement">
+                                                <p>计算机科学方向</p>
+                                                <p>任职职责</p>
+                                                <p>-负责计算机科学（计算理论、信息和编码理论、算法和数据结构、形式化方法、程序语言设计）课程与教学体系梳理  <br />
+                                                   -参与课程教学内容所需的教学工具与方法的设计和创新 <br />
+                                                   -积极参与计算机科学及计算教育领域相关研究与学术会议
+                                                </p>
+                                            </div>
+                                            <div class="relative text-right ui-apply-btn">
+                                                <a href="http://www.lagou.com/jobs/371905.html">
+                                                    <img src="img/button.png"/>
+                                                </a>
+                                            </div>
+                                            <div class="absolute ui-role-title">
+                                                <img src="img/title_yjy.png"/>
+                                            </div>
+                                            <div class="absolute ui-role">
+                                                <img src="img/role3.png"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide sub-swiper-slide sub-slide-job sub-slide-job-programming">
+                                        <div class="relative center slide-wrapper">
+                                            <div class="clearfix font-size-24 ui-head-wrapper">
+                                                <div class="ui-head">
+                                                    <div class="pull-right ui-salary">
+                                                        <span>￥10k-16k</span>
+                                                    </div>
+                                                    <div class="pull-left ui-name">
+                                                        <span>教学研究助理（体系结构）</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="break-word font-size-24 ui-requirement">
+                                                <p>任职职责</p>
+                                                <p>-负责计算机体系结构方向课程与教学体系梳理 <br />
+                                                   -参与课程教学内容所需的教学工具与方法的设计和创新 <br />
+                                                   -积极参与计算机体系结构及计算教育领域相关研究与学术会议
+                                                </p>
+                                            </div>
+                                            <div class="relative text-right ui-apply-btn">
+                                                <a href="http://www.lagou.com/jobs/371906.html">
+                                                    <img src="img/button.png"/>
+                                                </a>
+                                            </div>
+                                            <div class="absolute ui-role-title">
+                                                <img src="img/title_yjy.png"/>
+                                            </div>
+                                            <div class="absolute ui-role">
+                                                <img src="img/role3.png"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide sub-swiper-slide sub-slide-job sub-slide-job-programming">
+                                        <div class="relative center slide-wrapper">
+                                            <div class="clearfix font-size-28 ui-head-wrapper">
+                                                <div class="ui-head">
+                                                    <div class="pull-right ui-salary">
+                                                        <span>￥10k-16k</span>
+                                                    </div>
+                                                    <div class="pull-left ui-name">
+                                                        <span>教学研究助理（系统）</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="break-word font-size-24 ui-requirement">
+                                                <p>任职职责</p>
+                                                <p>-负责系统（操作系统、并行计算、实时系统和嵌入式系统）方向课程与教学体系梳理  <br />
+                                                   -参与课程教学内容所需的教学工具与方法的设计和创新 <br />
+                                                   -积极参与系统及计算教育领域相关研究与学术会议
+                                                </p>
+                                            </div>
+                                            <div class="relative text-right ui-apply-btn">
+                                                <a href="http://www.lagou.com/jobs/372666.html?source=company">
+                                                    <img src="img/button.png"/>
+                                                </a>
+                                            </div>
+                                            <div class="absolute ui-role-title">
+                                                <img src="img/title_yjy.png"/>
+                                            </div>
+                                            <div class="absolute ui-role">
+                                                <img src="img/role3.png"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide sub-swiper-slide sub-slide-job sub-slide-job-programming">
+                                        <div class="relative center slide-wrapper">
+                                            <div class="clearfix font-size-28 ui-head-wrapper">
+                                                <div class="ui-head">
+                                                    <div class="pull-right ui-salary">
+                                                        <span>￥10k-16k</span>
+                                                    </div>
+                                                    <div class="pull-left ui-name">
+                                                        <span>教学研究助理（网络）</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="break-word font-size-24 ui-requirement">
+                                                <p>任职职责</p>
+                                                <p>-负责计算机网络方向课程与教学体系梳理   <br />
+                                                   -参与课程教学内容所需的教学工具与方法的设计和创新 <br />
+                                                   -积极参与计算机网络及计算教育领域相关研究与学术会议
+                                                </p>
+                                            </div>
+                                            <div class="relative text-right ui-apply-btn">
+                                                <a href="http://www.lagou.com/jobs/372674.html?source=company">
+                                                    <img src="img/button.png"/>
+                                                </a>
+                                            </div>
+                                            <div class="absolute ui-role-title">
+                                                <img src="img/title_yjy.png"/>
+                                            </div>
+                                            <div class="absolute ui-role">
+                                                <img src="img/role3.png"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide sub-swiper-slide sub-slide-job sub-slide-job-programming">
+                                        <div class="relative center slide-wrapper">
+                                            <div class="clearfix font-size-24 ui-head-wrapper">
+                                                <div class="ui-head">
+                                                    <div class="pull-right ui-salary">
+                                                        <span>￥10k-16k</span>
+                                                    </div>
+                                                    <div class="pull-left ui-name">
+                                                        <span>教学研究助理（科学计算）</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="break-word font-size-24 ui-requirement">
+                                                <p>科学计算方向</p>
+                                                <p>任职职责</p>
+                                                <p>-负责数值分析与科学计算方向课程与教学体系梳理   <br />
+                                                   -参与课程教学内容所需的教学工具与方法的设计和创新 <br />
+                                                   -积极参与数值分析与科学计算及计算教育领域相关研究与学术会议
+                                                </p>
+                                            </div>
+                                            <div class="relative text-right ui-apply-btn">
+                                                <a href="http://www.lagou.com/jobs/372685.html?source=company">
+                                                    <img src="img/button.png"/>
+                                                </a>
+                                            </div>
+                                            <div class="absolute ui-role-title">
+                                                <img src="img/title_yjy.png"/>
+                                            </div>
+                                            <div class="absolute ui-role">
+                                                <img src="img/role3.png"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                     <div class="swiper-slide sub-swiper-slide sub-slide-job sub-slide-job-programming">
+                                        <div class="relative center slide-wrapper">
+                                            <div class="clearfix font-size-28 ui-head-wrapper">
+                                                <div class="ui-head">
+                                                    <div class="pull-right ui-salary">
+                                                        <span>￥10k-16k</span>
+                                                    </div>
+                                                    <div class="pull-left ui-name">
+                                                        <span>教学研究助理（安全）</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="break-word font-size-24 ui-requirement">
+                                                <p>任职职责</p>
+                                                <p>-负责信息安全与密码学课程与教学体系梳理    <br />
+                                                   -参与课程教学内容所需的教学工具与方法的设计和创新 <br />
+                                                   -积极参与信息安全与密码学及计算教育领域相关研究与学术会议
+                                                </p>
+                                            </div>
+                                            <div class="relative text-right ui-apply-btn">
+                                                <a href="http://www.lagou.com/jobs/374839.html?source=company">
+                                                    <img src="img/button.png"/>
+                                                </a>
+                                            </div>
+                                            <div class="absolute ui-role-title">
+                                                <img src="img/title_yjy.png"/>
+                                            </div>
+                                            <div class="absolute ui-role">
+                                                <img src="img/role3.png"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide sub-swiper-slide sub-slide-job sub-slide-job-programming">
+                                        <div class="relative center slide-wrapper">
+                                            <div class="clearfix font-size-28 ui-head-wrapper">
+                                                <div class="ui-head">
+                                                    <div class="pull-right ui-salary">
+                                                        <span>￥10k-16k</span>
+                                                    </div>
+                                                    <div class="pull-left ui-name">
+                                                        <span>教学研究助理</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="break-word font-size-24 ui-requirement">
+                                                <p>人工智能与数据工程方向</p>
+                                                <p>任职职责</p>
+                                                <p>-负责计算机科学（计算理论、信息和编码理论、算法和数据结构、形式化方法、程序语言设计）方向课程与教学体系梳理  <br />
+                                                   -参与课程教学内容所需的教学工具与方法的设计和创新 <br />
+                                                   -积极参与人工智能、数据工程、知识发现及计算教育等领域相关研究与学术会议
+                                                </p>
+                                            </div>
+                                            <div class="relative text-right ui-apply-btn">
+                                                <a href="http://www.lagou.com/jobs/374855.html?source=company">
+                                                    <img src="img/button.png"/>
+                                                </a>
+                                            </div>
+                                            <div class="absolute ui-role-title">
+                                                <img src="img/title_yjy.png"/>
+                                            </div>
+                                            <div class="absolute ui-role">
+                                                <img src="img/role3.png"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide sub-swiper-slide sub-slide-job sub-slide-job-programming">
+                                        <div class="relative center slide-wrapper">
+                                            <div class="clearfix font-size-24 ui-head-wrapper">
+                                                <div class="ui-head">
+                                                    <div class="pull-right ui-salary">
+                                                        <span>￥10k-16k</span>
+                                                    </div>
+                                                    <div class="pull-left ui-name">
+                                                        <span>教学研究助理（多媒体）</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="break-word font-size-24 ui-requirement">
+                                                <p>任职职责</p>
+                                                <p>-负责多媒体、图像、图形领域相关课程与教学体系梳理  <br />
+                                                   -参与课程教学内容所需的教学工具与方法的设计和创新 <br />
+                                                   -积极参与多媒体、计算机视觉、计算机图形学及计算教育领域相关研究与学术会议
+                                                </p>
+                                            </div>
+                                            <div class="relative text-right ui-apply-btn">
+                                                <a href="http://www.lagou.com/jobs/374864.html?source=company">
+                                                    <img src="img/button.png"/>
+                                                </a>
+                                            </div>
+                                            <div class="absolute ui-role-title">
+                                                <img src="img/title_yjy.png"/>
+                                            </div>
+                                            <div class="absolute ui-role">
+                                                <img src="img/role3.png"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide sub-swiper-slide sub-slide-job sub-slide-job-programming">
+                                        <div class="relative center slide-wrapper">
+                                            <div class="clearfix font-size-24 ui-head-wrapper">
+                                                <div class="ui-head">
+                                                    <div class="pull-right ui-salary">
+                                                        <span>￥10k-16k</span>
+                                                    </div>
+                                                    <div class="pull-left ui-name">
+                                                        <span>教学研究助理（人机交互）</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="break-word font-size-24 ui-requirement">
+                                                <p>任职职责</p>
+                                                <p>-负责人机交互（含计算伦理、社会计算、用户界面设计等）方向课程与教学体系梳理  <br />
+                                                   -参与课程教学内容所需的教学工具与方法的设计和创新 <br />
+                                                   -积极参与人机交互、普适计算及计算教育领域相关研究与学术会议
+                                                </p>
+                                            </div>
+                                            <div class="relative text-right ui-apply-btn">
+                                                <a href="http://www.lagou.com/jobs/374879.html?source=company">
+                                                    <img src="img/button.png"/>
+                                                </a>
+                                            </div>
+                                            <div class="absolute ui-role-title">
+                                                <img src="img/title_yjy.png"/>
+                                            </div>
+                                            <div class="absolute ui-role">
+                                                <img src="img/role3.png"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide sub-swiper-slide sub-slide-job sub-slide-job-programming">
+                                        <div class="relative center slide-wrapper">
+                                            <div class="clearfix font-size-24 ui-head-wrapper">
+                                                <div class="ui-head">
+                                                    <div class="pull-right ui-salary">
+                                                        <span>￥10k-16k</span>
+                                                    </div>
+                                                    <div class="pull-left ui-name">
+                                                        <span>教学研究助理（软件工程）</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="break-word font-size-24 ui-requirement">
+                                                <p>任职职责</p>
+                                                <p>-负责软件工程（含需求工程、设计模式、测试工程等）方向课程与教学体系梳理  <br />
+                                                   -参与课程教学内容所需的教学工具与方法的设计和创新 <br />
+                                                   -积极参与软件工程及软件工程教育领域相关研究与学术会议
+                                                </p>
+                                            </div>
+                                            <div class="relative text-right ui-apply-btn">
+                                                <a href="http://www.lagou.com/jobs/374893.html?source=company">
+                                                    <img src="img/button.png"/>
+                                                </a>
+                                            </div>
+                                            <div class="absolute ui-role-title">
+                                                <img src="img/title_yjy.png"/>
+                                            </div>
+                                            <div class="absolute ui-role">
+                                                <img src="img/role3.png"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                     <div class="swiper-slide sub-swiper-slide sub-slide-job sub-slide-job-programming">
+                                        <div class="relative center slide-wrapper">
+                                            <div class="clearfix font-size-28 ui-head-wrapper">
+                                                <div class="ui-head">
+                                                    <div class="pull-right ui-salary">
+                                                        <span>￥100/天</span>
+                                                    </div>
+                                                    <div class="pull-left ui-name">
+                                                        <span>课程专员（实习）</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="break-word font-size-24 ui-requirement">
+                                                <p>任职职责</p>
+                                                <p>-辅助教研助理的编写工作  <br />
+                                                   -单一课程的校对和录入 <br />
+                                                   -熟练掌握计算机科学、体系结构、系统、网络、科学计算、安全、人工智能与数据科学、多媒体、人机交互、软件工程中任意一门
+                                                </p>
+                                            </div>
+                                            <div class="relative text-right ui-apply-btn">
+                                                <a href="http://www.judaoyouda.com/hr.html">
+                                                    <img src="img/button.png"/>
+                                                </a>
+                                            </div>
+                                            <div class="absolute ui-role-title">
+                                                <img src="img/title_sxs.png"/>
+                                            </div>
+                                            <div class="absolute ui-role">
+                                                <img src="img/role2.png"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide slide-share" data-hash="slide-end">
+                    <div class="slide-wrapper">
+                        <div class="text-center ui-logo">
+                            <img src="img/5f23186dfc3a4ba1a0a1d1309f9962fd2f63405e.jpg"/>
+                        </div>
+                        <div class="nowrap text-center font-size-36 ui-title">
+                            <a href="http://www.judaoyouda.com">矩道优达<span class="ui-arrow">&nbsp;&nbsp;&gt;&gt;</span></a>
+                        </div>
+                        <div class="text-center font-size-28 ui-guide">
+                        </div>
+                        <div class="text-center font-size-28 ui-follow" style="display:none;">
+                            
+                        </div>
+                        <div class="absolute center text-center ui-site-logo">
+                            <!--footer icon image-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>            
+        </div>
+    </div>
+    <div class="content-sidebar js-content-sidebar">
+            <div class="sidebar-section qrcode-info">
+                <div class="section-detail">
+                    <p class="text-center sidebar-title">微信“扫一扫”分享朋友圈</p>
+                    <p id="qr-code" class="text-center qr-code"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div style="display:none;">
+        <script type="text/javascript">
+        var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+        document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fcbd1c666d9ecfce2daab16095311bc1c' type='text/javascript'%3E%3C/script%3E"));
+        </script>
+    </div>
+</body>
+<script>
+( new MobileSlider() ).init();
+</script>
+<script>
+    // URL 二维码图
+    setTimeout( function() {
+        /android|webos|iphone|ipad|ipod|blackberry|iemobile|opera mini/i.test( navigator.userAgent.toLowerCase() ) || $( "#qr-code" ).html( '<img width="158" height="158" src="http://s.jiathis.com/qrcode.php?url=' + window.location.href.split( "#" )[0] + '">' ).closest( ".js-content-sidebar" ).show();
+    }, 0 );
+</script>
+</html>
